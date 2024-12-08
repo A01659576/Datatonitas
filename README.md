@@ -13,6 +13,7 @@ Permite combatir los actos de corrupción en los procesos de contratación, de f
 Los usuarios pueden utilizar la herramienta al subir los archivos json de la Plataforma Digital Nacional provenientes del sistema 6. Los archivos que se deben subir son únicamente los correspondientes a las entidades federativas. Una vez que se realicé este paso, se pueden utilizar los filtros correspondientes (por tipo de bandera, estado, ID y proveedor). Lo anterior, le permitirá al usuario acceder a la información que le sea de su interés. Por otra parte, en la parte superior de los filtros, se desplegará un conteo con el número de red y green flags, el cual se actualizará cada que se cambien los filtros.
 
 Link del código en Google Colab: https://colab.research.google.com/drive/1VxveUcs3jDGNGa-hPwo2nVBtnXzCj4WU?usp=sharing
+
 Para mayor información consultar artículo del Banco Mundial: https://openknowledge.worldbank.org/server/api/core/bitstreams/f70c333b-e7d3-5349-ad6a-ddb4865e5904/content
 
 
