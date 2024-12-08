@@ -1,14 +1,14 @@
 # Datatonitas
 Proyecto que facilita la detección y sanción de posibles actos de colusión.
 
-#Integrantes
+# Integrantes
 América Andrea Espinoza Sánchez
 Ana Paola Villanueva Medrano
 Allison Marianne Zepeda Beltrán
 Paulina Leal Mosqueda
 Fernanda Leal Mosqueda
 
-#¿Qué hace el proyecto?
+# ¿Qué hace el proyecto?
 El proyecto es una herramienta que utiliza datos del sistema 6 de la Plataforma Digital Nacional (PDN). El código observa la diferencia porcentual entre el presupuesto para licitaciones y el valor de los contratos otorgados. Para ello, se toma en cuenta el porcentaje establecido por el Banco Mundial, el cual establece que si la diferencia es mayor o igual al 30%, significa que hay un posible acto de colusión (Kenny & Musatova, 2010). Asimismo, el código detecta si el plazo del tiempo entre la publicación de la licitación y el cierre es menor a 15 días conforme a lo indicado por la Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público (LAASSP, 2021) en su artículo 32. En este sentido, busca detectar posibles actos de corrupción en los procesos de contrataciones relacionados con colusión y, en su caso, que haya una sanción.
 
 Por otro lado, el código se realizó utilizando Python y las librerías usadas son: polars, json, re, dateutil.parser, google.colab, IPython.display y ipywidgets. Adicionalmente, las variables utilizadas fueron el ID de la contratación, entidad federativa, el valor del tender (licitación), el monto del contrato, la descripción del contrato, fecha de inicio del tender y su fecha de terminación.
